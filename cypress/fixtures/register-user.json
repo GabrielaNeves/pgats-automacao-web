@@ -1,0 +1,46 @@
+{
+  "users": {
+    "valid": {
+      "name": "qa-tester",
+      "emailTemplate": "qa-tester-{{timestamp}}@test.com",
+      "password": "12345",
+      "first_name": "Bob",
+      "last_name": "Narciso Pipoca",
+      "company": "Ford",
+      "address1": "Avenida Selenium, n 2004",
+      "address2": "Bairro Cypress",
+      "country": "Canada",
+      "state": "California",
+      "city": "Los Angeles",
+      "zipcode": "90001",
+      "mobile_number": "111 222 333"
+    },
+    "existing": {
+      "name": "teste",
+      "email": "teste@testeee.com",
+      "password": "12345"
+    },
+    "invalidEmail": {
+      "name": "bad",
+      "email": "testepgatss@teste.com",
+      "password": "12345erro"
+    }
+  },
+  "contact": {
+    "name": "QA Tester",
+    "email": "teste@testeee.com",
+    "subject": "Teste Cypress",
+    "message": "Este é um teste de automação utilizando Cypress.",
+    "upload": "arquivoUpload.txt"
+  },
+  "payment": {
+    "name_on_card": "Order User",
+    "card_number": "41895611161",
+    "cvc": "123",
+    "expiry_month": "06",
+    "expiry_year": "2030"
+  },
+  "search": {
+    "term": "Winter Top"
+  }
+}
